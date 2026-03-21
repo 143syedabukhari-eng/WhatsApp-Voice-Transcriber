@@ -3,66 +3,225 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - WhatsApp Voice Transcriber</title>
+    <title>Twitter X, Facebook & WhatsApp Voice Transcriber - Official Description</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 40px 20px; background-color: #f9f9f9; }
-        .container { background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-        h1 { color: #008069; border-bottom: 2px solid #008069; padding-bottom: 10px; margin-top: 0; }
-        h2 { color: #128c7e; margin-top: 30px; font-size: 1.4em; }
-        p { margin: 15px 0; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 10px; }
-        .footer { margin-top: 50px; font-size: 0.9em; color: #667781; border-top: 1px solid #eee; padding-top: 20px; }
-        code { background: #f0f2f5; padding: 2px 5px; border-radius: 4px; font-size: 0.9em; }
-        a { color: #008069; text-decoration: none; font-weight: 600; }
-        a:hover { text-decoration: underline; }
+        :root {
+            --primary-color: #008069;
+            --secondary-color: #128c7e;
+            --accent-color: #E1306C;
+            --bg-color: #f0f2f5;
+            --card-bg: #ffffff;
+            --text-main: #111b21;
+            --text-secondary: #667781;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: var(--bg-color);
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+
+        .hook {
+            font-size: 1.4em;
+            font-weight: 700;
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-left: 5px solid var(--primary-color);
+            padding-left: 15px;
+            margin-top: 40px;
+            font-size: 1.5em;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .feature-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-top: 3px solid var(--secondary-color);
+        }
+
+        .feature-title {
+            font-weight: 800;
+            margin-bottom: 8px;
+            display: block;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .step-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .step-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #eee;
+        }
+
+        .step-num {
+            background: var(--primary-color);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: var(--text-secondary);
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 700;
+            margin-top: 30px;
+            transition: transform 0.2s;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            background: var(--secondary-color);
+        }
+
+        @media (max-width: 600px) {
+            .feature-grid { grid-template-columns: 1fr; }
+            h1 { font-size: 1.6em; }
+        }
     </style>
 </head>
 <body>
+    <div class="container">
+        <div class="header">
+            <h1>Twitter X, Facebook & WhatsApp Voice Transcriber</h1>
+            <div class="hook">Stop listening, start reading! 🎙️➡️📜</div>
+            <p>Tired of receiving long voice messages when you're in a meeting, a loud environment, or simply don't have the time to listen? Twitter X, Facebook & WhatsApp Voice Transcriber is the ultimate productivity tool designed to convert any voice note into readable, accurate text instantly—directly within your favorite chat platforms.</p>
+            <p>Powered by industry-leading AI models (<strong>AssemblyAI, OpenAI Whisper, and Deepgram</strong>), our extension provides the most reliable transcription and translation service available on the Chrome Web Store today.</p>
+        </div>
 
-<div class="container">
-    <h1>Privacy Policy</h1>
-    <p><strong>Effective Date:</strong> March 6, 2026</p>
-    <p>This Privacy Policy describes how the <strong>WhatsApp Voice Transcriber</strong> ("the Extension") handles your information. Your privacy is our top priority, and we are committed to being transparent about how your data is processed.</p>
+        <h2>🚀 WHY INSTALL VOICE TRANSCRIBER PRO?</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <span class="feature-title">✅ MULTI-PLATFORM INTEGRATION</span>
+                One extension to rule them all. Whether you are on WhatsApp Web, Facebook Messenger, or Twitter (X) DMs, our "Transcribe" button appears seamlessly where you need it most.
+            </div>
+            <div class="feature-card">
+                <span class="feature-title">✅ UNMATCHED ACCURACY</span>
+                Leveraging the latest "Universal" AI models, the extension understands diverse accents, slang, technical jargon, and background noise with ease.
+            </div>
+            <div class="feature-card">
+                <span class="feature-title">✅ INSTANT TRANSLATION</span>
+                Bridge the language gap! Receive foreign voice notes and get both original transcripts and translations in 15+ languages in seconds.
+            </div>
+            <div class="feature-card">
+                <span class="feature-title">✅ PRIVACY-FIRST ARCHITECTURE</span>
+                Your data belongs to you. We do not store your audio or transcripts. Processing is done via your chosen secure API provider.
+            </div>
+            <div class="feature-card">
+                <span class="feature-title">✅ CLEAN & NATIVE UI</span>
+                No clunky popups. Transcription results appear in a sleek box right below the original message, maintaining the native look of the app.
+            </div>
+        </div>
 
-    <h2>1. Information Collection and Use</h2>
-    <p>The Extension is designed as a productivity tool for WhatsApp Web. It does not collect or store your personal data on any external servers owned by the developer.</p>
-    <ul>
-        <li><strong>API Keys:</strong> To function, the Extension requires an API key from a third-party provider (AssemblyAI, OpenAI, or Deepgram). These keys are stored locally in your browser’s <code>chrome.storage.sync</code> and are only used to authenticate your requests to these services.</li>
-        <li><strong>Audio Content:</strong> When you click the "Transcribe" button, the Extension fetches the specific audio message from WhatsApp Web. This audio is sent directly to your chosen AI provider for processing. The Extension does not save or archive your audio files.</li>
-        <li><strong>Transcripts:</strong> The resulting text is displayed only within your WhatsApp Web chat interface. We do not store or track the content of your messages.</li>
-    </ul>
+        <h2>🛠️ KEY FEATURES</h2>
+        <ul>
+            <li><strong>🌍 Global Support:</strong> Supports English, Spanish, Arabic, Urdu, French, German, Chinese, Japanese, and many more.</li>
+            <li><strong>⚡ Real-Time Processing:</strong> High-speed API integration delivers results faster than the speed of speech.</li>
+            <li><strong>📋 One-Click Copy:</strong> Built-in "Copy Text" button to save transcripts to your notes or other chats.</li>
+            <li><strong>⚙️ Custom AI Selection:</strong> Supports AssemblyAI, OpenAI (Whisper), and Deepgram.</li>
+            <li><strong>🕵️ Advanced Capture Technology:</strong> Unique technology "wakes up" old or expired audio links.</li>
+        </ul>
 
-    <h2>2. Third-Party Services</h2>
-    <p>To provide high-accuracy transcription and translation, the Extension interacts with the following third-party services. By using the Extension, you agree to the privacy policies of these providers:</p>
-    <ul>
-        <li><strong>Transcription Providers:</strong> Depending on your settings, audio data is sent to <strong>AssemblyAI</strong>, <strong>OpenAI</strong>, or <strong>Deepgram</strong>.</li>
-        <li><strong>Translation:</strong> If you enable the translation feature, transcribed text is sent to the <strong>Google Translate API</strong>.</li>
-    </ul>
+        <h2>📖 HOW IT WORKS</h2>
+        <div class="step-list">
+            <div class="step-item">
+                <div class="step-num">1</div>
+                <div>Install the extension.</div>
+            </div>
+            <div class="step-item">
+                <div class="step-num">2</div>
+                <div>Open the Settings page and add your <strong>API Key</strong>.</div>
+            </div>
+            <div class="step-item">
+                <div class="step-num">3</div>
+                <div>Open WhatsApp Web, Facebook Messenger, or Twitter (X).</div>
+            </div>
+            <div class="step-item">
+                <div class="step-num">4</div>
+                <div>Click the 🎙️ <strong>Transcribe</strong> button next to any voice message.</div>
+            </div>
+        </div>
 
-    <h2>3. Data Security</h2>
-    <p>We implement security best practices by:</p>
-    <ul>
-        <li>Using secure HTTPS connections for all data sent to AI providers.</li>
-        <li>Ensuring all settings and API keys stay within your browser environment.</li>
-        <li>Requesting the minimum necessary permissions (<code>storage</code>) required for functionality.</li>
-    </ul>
+        <h2>🎯 PERFECT FOR</h2>
+        <div class="feature-grid">
+            <div class="feature-card"><strong>Professionals:</strong> Read instructions from clients during meetings without breaking focus.</div>
+            <div class="feature-card"><strong>Students:</strong> Transcribe and reference voice-recorded notes or lectures.</div>
+            <div class="feature-card"><strong>Journalists:</strong> Quickly pull quotes from interviews recorded on social platforms.</div>
+            <div class="feature-card"><strong>Global Travelers:</strong> Understand international friends and family easily.</div>
+        </div>
 
-    <h2>4. User Control</h2>
-    <p>You have full control over your data. You can remove your API keys or change your transcription preferences at any time through the Extension's Preferences page. Uninstalling the Extension will immediately remove all stored settings from your browser.</p>
+        <div style="text-align: center;">
+            <a href="#" class="cta-btn">Install Now &rarr;</a>
+        </div>
 
-    <h2>5. Changes to This Policy</h2>
-    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on the Chrome Web Store and updating the "Effective Date" at the top of this page.</p>
-
-    <h2>6. Contact Us</h2>
-    <p>If you have any questions or concerns about this Privacy Policy, please contact the developer at: <br>
-    <a href="mailto:143syedabukhari@gmail.com">143syedabukhari@gmail.com</a></p>
-
-    <div class="footer">
-        © 2026 WhatsApp Voice Transcriber. All rights reserved. <br>
-        <em>Note: This extension is not affiliated with, authorized, maintained, sponsored, or endorsed by WhatsApp or any of its affiliates.</em>
+        <div class="footer">
+            <p><strong>Accessibility Matters:</strong> This tool is an essential accessibility aid for the hard-of-hearing community, providing a reliable way to engage with audio-centric social media content.</p>
+            <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+            <p><em>Note: This extension requires a third-party API key (free tiers available) from providers like AssemblyAI to function.</em></p>
+            <p>&copy; 2026 Twitter X, Facebook & WhatsApp Voice Transcriber. All rights reserved.</p>
+        </div>
     </div>
-</div>
-
 </body>
 </html>
